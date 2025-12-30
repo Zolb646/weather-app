@@ -51,7 +51,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-[500px] min-h-[400px] rounded-[40px] flex flex-col items-center justify-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 p-6 animate-gradient-x">
+    <div className="w-[500px] min-h-[400px] rounded-[40px] flex flex-col items-center justify-center bg-linear-to-r from-purple-500 via-pink-500 to-red-500 p-6 animate-gradient-x">
       <h1 className="text-5xl font-extrabold text-white mb-8 drop-shadow-lg animate-pulse">
         🌤 Weather App
       </h1>

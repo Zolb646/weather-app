@@ -10,7 +10,7 @@ export async function GET(req) {
 
   try {
     const apiKey = process.env.OPENWEATHER_API_KEY;
-    console.log("API KEY:", apiKey); // debug
+    console.log("API KEY:", apiKey);
 
     const res = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
